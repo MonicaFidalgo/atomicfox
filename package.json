@@ -1,14 +1,23 @@
 {
   "name": "monica",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "personal website",
+  "main": "main.js",
   "scripts": {
     "start": "lite-server"
   },
   "author": "Monica Fidalgo",
-  "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonicaFidalgo/atomicfox.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonicaFidalgo/atomicfox/issues"
+  },
+  "homepage": "https://github.com/MonicaFidalgo/atomicfox#readme"
 }

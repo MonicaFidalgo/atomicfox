@@ -1,14 +1,13 @@
-.c-usp {
-  width: 20%;
-  flex: 1 1 auto !important;
-  border: 1px solid black;
+.usp {
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #efeded;
 }
-.c-usp img.c-usp__icon {
-  font-size: 50px;
+.usp__icon {
   margin-bottom: 15px;
   width: auto;
 }
-.c-usp__content {
+.usp__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,20 +15,16 @@
   min-height: 180px;
   padding: 15px;
 }
-.c-usp__title {
+.usp__title {
   font-size: 24px;
 }
-.c-usp__text {
+.usp__text {
   font-size: 16px;
 }
-.c-usp__icon {
-  font-size: 50px;
-  margin-bottom: 15px;
-}
 
-#mydiv {
+.usp__wrapper {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 img {
